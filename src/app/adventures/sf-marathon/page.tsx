@@ -74,6 +74,7 @@ export default function SFMarathon() {
           <p>
             I had that same feeling from <InternalLink href="/adventures/first-century">my first century</InternalLink>. The fear of the pain to come, the anxiety of the unknown, the thrill of the challenge. (I suspect this feeling is heightened in the dark).
           </p>
+          <br />
           <p>
             And then we were off!
           </p>
