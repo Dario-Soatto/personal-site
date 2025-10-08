@@ -100,7 +100,7 @@ export default function Home() {
           </p>
           <br />
           <p className="text-emphasis">
-            <InternalLink href="/adventures">All favorites</InternalLink>
+            <InternalLink href="/favorites">All favorites</InternalLink>
           </p>
           <br />
         </div>

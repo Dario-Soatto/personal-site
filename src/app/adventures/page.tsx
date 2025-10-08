@@ -8,7 +8,7 @@ export default function Adventures() {
       <div className="max-w-3xl mx-auto">
         {/* Title Section */}
         <div className="mb-8">
-          <p className="text-emphasis">02</p>
+          <p className="text-emphasis">04</p>
           <br />
           <p className="text-emphasis">Adventures</p>
         </div>
@@ -40,7 +40,7 @@ export default function Adventures() {
         </div>
 
         {/* Item 3 - Last item, no border */}
-        <div className="border-b border-gray-300 py-6">
+        <div className="py-6">
           <p className="mb-2">
             <span className="text-emphasis">First Century</span> 12/24
           </p>
