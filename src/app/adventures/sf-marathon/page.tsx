@@ -60,7 +60,7 @@ export default function SFMarathon() {
           />
           <br />
           <p>
-            I was worringly sore the day after the runs (which was the day before the marathon).
+            I was worryingly sore the day after the runs (which was the day before the marathon).
           </p>
           <br />
           <p>
@@ -159,7 +159,7 @@ export default function SFMarathon() {
           </p>
           <br />
           <p>
-            Anyway, I continued through the strees:
+            Anyway, I continued through the streets:
           </p>
           <br />
           <Image

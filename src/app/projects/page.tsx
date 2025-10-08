@@ -88,7 +88,7 @@ export default function Projects() {
               <span className="text-emphasis">BibleGPT</span> 09/25
             </p>
             <p>
-              Chatbot with RAG over the Bible. I wanted to learn how RAG works and have away to quickly find out what the Bible says about a given topic.
+              Chatbot with RAG over the Bible. I wanted to learn how RAG works and have a way to quickly find out what the Bible says about a given topic.
             </p>
             <p className="mt-4">
               <ExternalLink href="https://github.com/Dario-Soatto/bible-gpt">Github</ExternalLink>

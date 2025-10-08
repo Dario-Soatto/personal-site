@@ -28,7 +28,7 @@ export default function FirstMarathon() {
           </p>
           <br />
           <p>
-            Half Moon Bay is right around 26.2 miles from Stanford, so I figured I'd run there. I charted out a route that avoided the freeways an thought I was good to go. Key word: thought.
+            Half Moon Bay is right around 26.2 miles from Stanford, so I figured I'd run there. I charted out a route that avoided the freeways and thought I was good to go. Key word: thought.
           </p>
           <br />
           <Image

@@ -20,7 +20,7 @@ export default function Home() {
         />
         <br />
         <p>
-          I study CS & Econonomics at Stanford. Broadly, I'm interested in understanding how technology impacts macroeconomic and geopolitical activity, building intelligent systems, and using AI to understand psychology/behavior. Since the rewards of the slot machines are still uncertain, I'm still very much in the exploration phase.
+          I study CS & Economics at Stanford. Broadly, I'm interested in understanding how technology impacts macroeconomic and geopolitical activity, building intelligent systems, and using AI to understand psychology/behavior. Since the rewards of the slot machines are still uncertain, I'm still very much in the exploration phase.
         </p>
         <br />
         <p>

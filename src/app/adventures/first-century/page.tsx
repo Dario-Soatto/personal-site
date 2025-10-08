@@ -43,7 +43,7 @@ export default function Century() {
           />
           <br />
           <p>
-            Biking through what was basically the woods, with the only light coming from my headlamp and the only sound coming from my breathing, was a surreal experience. Couple that with the fear of not knowing how it would end, and it was quite the thrill. It was also quite steep—really steep. For the first 10 or so miles, I basically never left first gear and moved at a crawls pace.
+            Biking through what was basically the woods, with the only light coming from my headlamp and the only sound coming from my breathing, was a surreal experience. Couple that with the fear of not knowing how it would end, and it was quite the thrill. It was also quite steep—really steep. For the first 10 or so miles, I basically never left first gear and moved at a crawling pace.
           </p>
           <br />
           <p>
@@ -147,7 +147,7 @@ export default function Century() {
           />
           <br />
           <p>
-            When you drive across the San Rafael Bridge, you think it's flat. Spoiler alert: it's not. It was hailing at this point, and I was feeling like David Goggins and thinking there wasn't anyone crazier than me Then I saw someone RUNNING across the bridge with NO SHIRT ON. I guess there's levels to everything.
+            When you drive across the San Rafael Bridge, you think it's flat. Spoiler alert: it's not. It was hailing at this point, and I was feeling like David Goggins and thinking there wasn't anyone crazier than me. Then I saw someone RUNNING across the bridge with NO SHIRT ON. I guess there's levels to everything.
           </p>
           <br />
           <p>
