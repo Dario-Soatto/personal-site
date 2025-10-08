@@ -1,103 +1,110 @@
 import Image from "next/image";
+import ExternalLink from "@/components/ExternalLink";
+import InternalLink from "@/components/InternalLink";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+    <div className="flex" style={{ height: 'calc(100vh - 56px)' }}>
+      {/* Left third - Fixed */}
+      <div className="w-1/3 border-r border-gray-300 p-6 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
+        <p>Hi! I'm</p>
+        
+        <p className="text-emphasis font-display" style={{ fontSize: '5.5rem' }}>Dario Soatto</p>
+        
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          src="/SMG_Photos_-141 copy.jpg"
+          alt="Dario Soatto"
+          width={400}
+          height={400}
+          className="w-2/3 h-auto"
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+        <br />
+        <p>
+          I study CS & Econonomics at Stanford. Broadly, I'm interested in understanding how technology impacts macroeconomic and geopolitical activity, building intelligent systems, and using AI to understand psychology/behavior. Since the rewards of the slot machines are still uncertain, I'm still very much in the exploration phase.
+        </p>
+        <br />
+        <p>
+          soatto@stanford.edu
+        </p>
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Right two-thirds - Scrollable */}
+      <div className="w-2/3 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
+        <div className="border-b border-gray-300 p-6">
+          <p className="text-emphasis">01</p>
+          <br />
+          <p className="text-emphasis">Work</p>
+          <br />
+          <p>
+            <span className="text-emphasis">Investing:</span> I invest in outlier young founders. Portfolio includes <ExternalLink href="https://context.ai/">Context AI</ExternalLink>, <ExternalLink href="https://www.hybrontech.com/">Hybron Tech</ExternalLink>, <ExternalLink href="https://judgmentlabs.ai/">Judgment Labs</ExternalLink>, <ExternalLink href="https://vigillabs.ai/">Vigil Labs</ExternalLink>, and <ExternalLink href="https://www.deepsim.io/">DeepSim</ExternalLink>. If you want to learn more or get involved, shoot me a note!
+          </p>
+          <br />
+          <p>
+            <span className="text-emphasis">May 2025 – Present: Building AI agents @ <ExternalLink href="https://context.ai/">Context AI</ExternalLink>.</span> Operations, engineering, growth, and design. I am blessed to work with and learn from this superstar team.
+          </p>
+          <br />
+          <p>
+            <span className="text-emphasis">March 2024 – September 2025: Investment team @ <ExternalLink href="https://www.luxcapital.com/">Lux Capital</ExternalLink>.</span> Worked with Shahin Farshchi to find and back generational companies. I was the youngest and longest serving student associate in firm history.
+          </p>
+          <br />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="border-b border-gray-300 p-6">
+        <p className="text-emphasis">02</p>
+          <br />
+          <p className="text-emphasis">Projects</p>
+          <br />
+          <p>
+            Recently, I've been building (i.e. vibing) a potpourri of random apps, mostly related to AI, politics, or both. I'm still learning (and hopefully improving), but I hope you'll find something interesting! 
+          </p>
+          <br />
+          <p className="text-emphasis">
+            <InternalLink href="/projects">All projects</InternalLink>
+          </p>
+          <br />
+        </div>
+        <div className="border-b border-gray-300 p-6">
+        <p className="text-emphasis">03</p>
+          <br />
+          <p className="text-emphasis">Writing</p>
+          <br />
+          <p>
+          Every now and then, I have thoughts that are too complicated for a tweet. I mostly write about tech, investing, and life.
+          </p>
+          <br />
+          <p className="text-emphasis">
+            <InternalLink href="/writing">All writing</InternalLink>
+          </p>
+          <br />
+        </div>
+        <div className="border-b border-gray-300 p-6">
+        <p className="text-emphasis">04</p>
+          <br />
+          <p className="text-emphasis">Adventures</p>
+          <br />
+          <p>
+            I sometimes get the urge to do something adventurous and potentially risky. It usually involves moving a long distance.
+          </p>
+          <br />
+          <p className="text-emphasis">
+            <InternalLink href="/adventures">All adventures</InternalLink>
+          </p>
+          <br />
+        </div>
+        <div className="p-6">
+        <p className="text-emphasis">05</p>
+          <br />
+          <p className="text-emphasis">Favorites</p>
+          <br />
+          <p>
+            I keep track of my favorite books, blogs, movies, etc. If you have any recs please let me know!
+          </p>
+          <br />
+          <p className="text-emphasis">
+            <InternalLink href="/adventures">All favorites</InternalLink>
+          </p>
+          <br />
+        </div>
+      </div>
     </div>
   );
 }
