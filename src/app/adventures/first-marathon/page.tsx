@@ -20,7 +20,7 @@ export default function FirstMarathon() {
           </p>
           <br />
           <p>
-            Then I screwed up by real analysis final. Oops! Off to the races.
+            Then I screwed up my real analysis final. Oops! Off to the races.
           </p>
           <br />
           <p>

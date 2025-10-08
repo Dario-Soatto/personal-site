@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Roboto_Mono, Poiret_One } from "next/font/google";
+import { Geist_Mono, Poiret_One } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 
-const robotoMono = Roboto_Mono({
+const geistMono = Geist_Mono({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-roboto-mono",
+  variable: "--font-geist-mono",
 });
 
 // Poiret One for your name
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoMono.variable} ${poiretOne.variable} antialiased`}>
+      <body className={`${geistMono.variable} ${poiretOne.variable} antialiased`}>
         <Header />
         {children}
       </body>
