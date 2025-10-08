@@ -77,6 +77,7 @@ export default function SFMarathon() {
           <p>
             And then we were off!
           </p>
+          <br />
           <Image
             src="/IMG_1793.jpg"
             alt="Marathon start"

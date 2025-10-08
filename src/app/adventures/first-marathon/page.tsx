@@ -103,6 +103,7 @@ export default function FirstMarathon() {
           <p>
             I reached the halfway point of the marathon after just over two hours, so I was making pace. The Pulgas Water Temple there is a hidden gem:
           </p>
+          <br />
           <Image
             src="/IMG_0115.jpg"
             alt="Pulgas Water Temple"
