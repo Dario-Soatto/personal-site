@@ -5,8 +5,8 @@ import InternalLink from "@/components/InternalLink";
 export default function Home() {
   return (
     <div className="flex" style={{ height: 'calc(100vh - 56px)' }}>
-      {/* Left third - Fixed */}
-      <div className="w-1/3 border-r border-gray-300 p-6 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
+      {/* Left side - Fixed width */}
+      <div className="w-140 flex-shrink-0 border-r border-gray-300 p-6 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
         <p>Hi! I'm</p>
         
         <p className="text-emphasis font-display" style={{ fontSize: '5.5rem' }}>Dario Soatto</p>
@@ -28,8 +28,8 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Right two-thirds - Scrollable */}
-      <div className="w-2/3 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
+      {/* Right side - Takes remaining space */}
+      <div className="flex-1 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
         <div className="border-b border-gray-300 p-6">
           <p className="text-emphasis">01</p>
           <br />
