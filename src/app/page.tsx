@@ -4,9 +4,10 @@ import InternalLink from "@/components/InternalLink";
 
 export default function Home() {
   return (
-    <div className="flex" style={{ height: 'calc(100vh - 56px)' }}>
-      {/* Left side - 1/3 on mobile, fixed width on desktop */}
-      <div className="w-1/3 md:w-140 flex-shrink-0 border-r border-gray-300 p-6 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
+    // Mobile: stack vertically | Desktop: side-by-side
+    <div className="flex flex-col md:flex-row" style={{ minHeight: 'calc(100vh - 56px)' }}>
+      {/* Left side - Full width on mobile, fixed width on desktop */}
+      <div className="w-full md:w-140 md:flex-shrink-0 border-b md:border-b-0 md:border-r border-gray-300 p-6 md:overflow-y-auto md:h-[calc(100vh-56px)]">
         <p>Hi! I'm</p>
         
         <p className="text-emphasis font-display" style={{ fontSize: '5.5rem' }}>Dario Soatto</p>
@@ -28,8 +29,8 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Right side - Takes remaining space */}
-      <div className="flex-1 overflow-y-auto" style={{ height: 'calc(100vh - 56px)' }}>
+      {/* Right side - Full width on mobile, flex on desktop */}
+      <div className="w-full md:flex-1 md:overflow-y-auto md:h-[calc(100vh-56px)]">
         <div className="border-b border-gray-300 p-6">
           <p className="text-emphasis">01</p>
           <br />
