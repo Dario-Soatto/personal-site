@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono, Poiret_One } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistMono = Geist_Mono({
   subsets: ["latin"],
