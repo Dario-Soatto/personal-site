@@ -36,7 +36,36 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* AILeaf - FAVORITE */}
+        {/* Substack Search - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">Substack Search</span> 10/25
+            </p>
+            <p>
+              Semantic search over Substacks. I wanted to easily be able to find information from my favorite substacks. This app scrapes and RAGs over them.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/substack-search">Github</ExternalLink> <ExternalLink href="https://www.substack.soatto.com/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
+        {/* BibleGPT - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">BibleGPT</span> 10/25
+            </p>
+            <p>
+            Chatbot with RAG over the Bible. Second version with AI streaming and Pinecone connected.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/bible-gpt-v2">Github</ExternalLink> <ExternalLink href="https://www.biblegpt.soatto.com/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
         {(view === 'all' || view === 'favorites') && (
           <div className="border-b border-gray-300 py-6">
             <p className="mb-2">
