@@ -35,10 +35,7 @@ export default function Home() {
           <p className="text-emphasis">01</p>
           <br />
           <p className="text-emphasis">Work</p>
-          <br />
-          <p>
-            <span className="text-emphasis">Investing:</span> I invest in outlier young founders. Portfolio includes <ExternalLink href="https://context.ai/">Context AI</ExternalLink>, <ExternalLink href="https://www.hybrontech.com/">Hybron Tech</ExternalLink>, <ExternalLink href="https://judgmentlabs.ai/">Judgment Labs</ExternalLink>, <ExternalLink href="https://vigillabs.ai/">Vigil Labs</ExternalLink>, and <ExternalLink href="https://www.deepsim.io/">DeepSim</ExternalLink>. If you want to learn more or get involved, shoot me a note!
-          </p>
+          
           <br />
           <p>
             <span className="text-emphasis">May 2025 – Present: Building AI agents @ <ExternalLink href="https://context.ai/">Context AI</ExternalLink>.</span> Operations, engineering, growth, and design. I am blessed to work with and learn from this superstar team.
@@ -48,6 +45,11 @@ export default function Home() {
             <span className="text-emphasis">March 2024 – September 2025: Investment team @ <ExternalLink href="https://www.luxcapital.com/">Lux Capital</ExternalLink>.</span> Worked with Shahin Farshchi to find and back generational companies. I was the youngest and longest serving student associate in firm history.
           </p>
           <br />
+          <p>
+            <span className="text-emphasis">Investing:</span> I invest in outlier young founders. Portfolio includes <ExternalLink href="https://context.ai/">Context AI</ExternalLink>, <ExternalLink href="https://www.hybrontech.com/">Hybron Tech</ExternalLink>, <ExternalLink href="https://judgmentlabs.ai/">Judgment Labs</ExternalLink>, <ExternalLink href="https://vigillabs.ai/">Vigil Labs</ExternalLink>, and <ExternalLink href="https://www.deepsim.io/">DeepSim</ExternalLink>. If you want to learn more or get involved, shoot me a note!
+          </p>
+          <br />
+          
         </div>
         <div className="border-b border-gray-300 p-6">
         <p className="text-emphasis">02</p>
