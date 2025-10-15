@@ -36,6 +36,21 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* TikTok for Posthog */}
+        {view === 'all' && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">TikTok for Posthog</span> 09/25
+            </p>
+            <p>
+              Interface to mindlessly scroll through Posthog session replays. Watching Posthogs sucks, so I wanted to make it a little more bearable.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/tiktok-for-posthog">Github</ExternalLink> <ExternalLink href="https://www.tiktok-for-posthog.vercel.app/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
         {/* Substack Search - FAVORITE */}
         {(view === 'all' || view === 'favorites') && (
           <div className="border-b border-gray-300 py-6">
