@@ -68,20 +68,6 @@ export default function Home() {
         <div className="border-b border-gray-300 p-6">
         <p className="text-emphasis">03</p>
           <br />
-          <p className="text-emphasis">Writing</p>
-          <br />
-          <p>
-          Every now and then, I have thoughts that are too complicated for a tweet. I mostly write about tech, investing, and life.
-          </p>
-          <br />
-          <p className="text-emphasis">
-            <InternalLink href="/writing">All writing</InternalLink>
-          </p>
-          <br />
-        </div>
-        <div className="border-b border-gray-300 p-6">
-        <p className="text-emphasis">04</p>
-          <br />
           <p className="text-emphasis">Adventures</p>
           <br />
           <p>
@@ -90,6 +76,20 @@ export default function Home() {
           <br />
           <p className="text-emphasis">
             <InternalLink href="/adventures">All adventures</InternalLink>
+          </p>
+          <br />
+        </div>
+        <div className="border-b border-gray-300 p-6">
+        <p className="text-emphasis">04</p>
+          <br />
+          <p className="text-emphasis">Writing</p>
+          <br />
+          <p>
+          Every now and then, I have thoughts that are too complicated for a tweet. I mostly write about tech, investing, and life.
+          </p>
+          <br />
+          <p className="text-emphasis">
+            <InternalLink href="/writing">All writing</InternalLink>
           </p>
           <br />
         </div>
