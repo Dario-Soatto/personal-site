@@ -51,6 +51,21 @@ export default function Projects() {
           </div>
         )}
 
+        {/* Parallel Search - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">Parallel Search</span> 10/25
+            </p>
+            <p>
+              Chat with extremely fast parallel search using Tably. To learn how LLMs use and call tools, I built this app that does extremely fast and surprisingly good web research.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/parallel-search">Github</ExternalLink> <ExternalLink href="https://www.search.soatto.com/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
         {/* Substack Search - FAVORITE */}
         {(view === 'all' || view === 'favorites') && (
           <div className="border-b border-gray-300 py-6">
