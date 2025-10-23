@@ -24,13 +24,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://dario.soatto.com/adventures',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.5,
+      priority: 0.9,
     },
     {
       url: 'https://dario.soatto.com/favorites',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.5,
+      priority: 0.4,
     },
   ]
 }

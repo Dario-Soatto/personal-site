@@ -36,6 +36,21 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* Knowledge Graph - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">Personal Knowledge Graph</span> 10/25
+            </p>
+            <p>
+              Make and search over a personal knowledge graph. A way to visualize and review the online content I like.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/knowledge">Github</ExternalLink> <ExternalLink href="https://www.knowledge.soatto.com/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
         {/* TikTok for Posthog */}
         {view === 'all' && (
           <div className="border-b border-gray-300 py-6">

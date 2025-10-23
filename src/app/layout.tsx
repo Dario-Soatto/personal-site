@@ -95,7 +95,7 @@ export default function RootLayout({
     url: 'https://dario.soatto.com',
     image: 'https://dario.soatto.com/SMG_Photos_-141 copy.jpg',
     email: 'soatto@stanford.edu',
-    jobTitle: 'AI Agent Builder & Investor',
+    jobTitle: 'Learner',
     worksFor: {
       '@type': 'Organization',
       name: 'Context AI'
@@ -106,9 +106,9 @@ export default function RootLayout({
     },
     knowsAbout: ['Artificial Intelligence', 'Venture Capital', 'Computer Science', 'Economics', 'AI Agents'],
     sameAs: [
-      'https://www.linkedin.com/in/dariosoatto', // Add your actual social profiles
-      'https://twitter.com/dariosoatto',
-      'https://github.com/dariosoatto'
+      'https://www.linkedin.com/in/dario-soatto', // Add your actual social profiles
+      'https://twitter.com/dsoatto',
+      'https://github.com/dario-soatto'
     ]
   };
 
