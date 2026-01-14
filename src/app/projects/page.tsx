@@ -36,6 +36,21 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* Werewolf - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">AI One Night Ultimate Werewolf</span> 10/25
+            </p>
+            <p>
+              GPT-5 powered AI agents play One Night Ultimate Werewolf. Seems like they struggle with second order strategic thinking, so the tanner is advantaged.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/werewolf">Github</ExternalLink> <ExternalLink href="https://werewolf-ashy.vercel.app/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
         {/* Knowledge Graph - FAVORITE */}
         {(view === 'all' || view === 'favorites') && (
           <div className="border-b border-gray-300 py-6">

@@ -296,11 +296,14 @@ export default function Favorites() {
             <div className="border-b border-gray-300 py-6">
               <p className="text-emphasis">Oppenheimer</p>
             </div>
-            <div className="border-b border-gray-300 py-6">
-              <p className="text-emphasis">Knives Out</p>
-            </div>
             <div className="py-6">
               <p className="text-emphasis">Howl's Moving Castle</p>
+            </div>
+            <div className="py-6">
+              <p className="text-emphasis">Tenet</p>
+            </div>
+            <div className="py-6">
+              <p className="text-emphasis">The Dark Knight</p>
             </div>
           </>
         )}
