@@ -21,7 +21,7 @@ export default function Home() {
         />
         <br />
         <p>
-          I study CS & Economics at Stanford. Broadly, I'm interested in understanding how technology impacts macroeconomic and geopolitical activity, building intelligent systems, and using AI to understand psychology/behavior. Since the rewards of the slot machines are still uncertain, I'm still very much in the exploration phase.
+          I study CS & Economics at Stanford. Broadly, I'm interested in understanding how technology impacts macroeconomics and geopolitics, building intelligent systems, and using AI to understand psychology/behavior. Since the rewards of the slot machines are still uncertain, I'm still very much in the exploration phase.
         </p>
         <br />
         <p>
@@ -85,7 +85,7 @@ export default function Home() {
           <p className="text-emphasis">Writing</p>
           <br />
           <p>
-          Every now and then, I have thoughts that are too complicated for a tweet. I mostly write about tech, investing, and life.
+          Every now and then, I have thoughts that warrant more than a tweet. I mostly write about tech, investing, and life.
           </p>
           <br />
           <p className="text-emphasis">

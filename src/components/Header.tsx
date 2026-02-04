@@ -2,6 +2,7 @@
 
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header() {
   const pathname = usePathname()
@@ -37,8 +38,17 @@ export default function Header() {
   return (
     <header className="sticky top-0 bg-white border-b border-gray-300 py-4 px-6 z-50">
       <div className="flex justify-between items-center">
-        {/* Left side - Name and location */}
-        <div className="text-sm">
+        {/* Left side - Logo, Name and location */}
+        <div className="text-sm flex items-center gap-2">
+          <Link href="/painting" className="hover:opacity-70 transition-opacity">
+            <Image 
+              src="/icon.png" 
+              alt="Painting" 
+              width={20} 
+              height={20}
+              className="rounded-sm"
+            />
+          </Link>
           <Link href="/" className="hover:opacity-70 transition-opacity">
             D.G.S
           </Link>

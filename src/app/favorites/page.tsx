@@ -93,6 +93,11 @@ export default function Favorites() {
             </div>
             <div className="border-b border-gray-300 py-6">
               <p>
+                <span className="text-emphasis">The Case for Christ</span> - Lee Strobel
+              </p>
+            </div>
+            <div className="border-b border-gray-300 py-6">
+              <p>
                 <span className="text-emphasis">The Art of War</span> - Sun Tzu
               </p>
             </div>
@@ -296,10 +301,10 @@ export default function Favorites() {
             <div className="border-b border-gray-300 py-6">
               <p className="text-emphasis">Oppenheimer</p>
             </div>
-            <div className="py-6">
+            <div className="border-b border-gray-300 py-6">
               <p className="text-emphasis">Howl's Moving Castle</p>
             </div>
-            <div className="py-6">
+            <div className="border-b border-gray-300 py-6">
               <p className="text-emphasis">Tenet</p>
             </div>
             <div className="py-6">
