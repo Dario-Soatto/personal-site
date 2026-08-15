@@ -36,6 +36,36 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* Midterms 2026 - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">Midterms 2026</span> 06/26
+            </p>
+            <p>
+              Live prediction-market odds for the 2026 U.S. midterms. Every House district and Senate race priced from Kalshi, aggregated into a seat-distribution forecast.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/midterm-tracker">Github</ExternalLink> <ExternalLink href="https://midterm-tracker.vercel.app/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
+        {/* Model Ethics Catalog - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">Model Ethics Catalog</span> 05/26
+            </p>
+            <p>
+              How frontier AI models respond to classic ethical and game-theoretic dilemmas. 10 samples per (dilemma, model) at temperature 1.0.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/ai-ethics">Github</ExternalLink> <ExternalLink href="https://ai-ethics-orpin.vercel.app/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
         {/* Werewolf - FAVORITE */}
         {(view === 'all' || view === 'favorites') && (
           <div className="border-b border-gray-300 py-6">
