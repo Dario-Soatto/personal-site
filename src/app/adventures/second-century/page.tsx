@@ -307,6 +307,10 @@ export default function SecondCentury() {
             The final stretches of any long journey are painful, at least mentally. I was desperate to be finished, to return to the dorm and crash, and I had already done 80%+ of the work. But 20% of a lot is still a lot, and as I kept pedaling the mileage felt like it was moving at a snail's pace. But all painful things must come to an end eventually, and after 9.5 hours of moving time, I finally made it back to Stanford campus.
           </p>
           <br />
+          <p>
+            Though the bike ride was finally over, the aftereffects of it were not. The next morning, I woke up with my hands tingling, trembling, and weakened——I couldn't snap, play guitar, or even open a water bottle. But Claude told me the symptoms would pass, and they did, though it took a month.
+          </p>
+          <br />
         </div>
       </div>
     </div>
