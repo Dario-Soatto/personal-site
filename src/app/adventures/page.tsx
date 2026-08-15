@@ -16,6 +16,32 @@ export default function Adventures() {
         {/* Item 1 */}
         <div className="border-b border-gray-300 py-6">
           <p className="mb-2">
+            <span className="text-emphasis">Ultramarathon?</span> 08/26
+          </p>
+          <p>
+            New York City → New York City. Did a loop around Manhattan after 10 weeks stuck in a cubicle. Pretty excruciating.
+          </p>
+          <p className="mt-4">
+          <InternalLink href="/adventures/ultramarathon">Link</InternalLink> <ExternalLink href="https://www.strava.com/activities/19683932502">Strava</ExternalLink>
+          </p>
+        </div>
+
+        {/* Item 2 */}
+        <div className="border-b border-gray-300 py-6">
+          <p className="mb-2">
+            <span className="text-emphasis">Second Century</span> 11/25
+          </p>
+          <p>
+            San Francisco → Palo Alto. Second attempt at a century before Big Game. It was unbearably cold.
+          </p>
+          <p className="mt-4">
+          <InternalLink href="/adventures/second-century">Link</InternalLink> <ExternalLink href="https://www.strava.com/activities/16537892396">Strava</ExternalLink>
+          </p>
+        </div>
+
+        {/* Item 3 */}
+        <div className="border-b border-gray-300 py-6">
+          <p className="mb-2">
             <span className="text-emphasis">San Francisco Marathon</span> 07/25
           </p>
           <p>
@@ -26,7 +52,7 @@ export default function Adventures() {
           </p>
         </div>
 
-        {/* Item 2 */}
+        {/* Item 4 */}
         <div className="border-b border-gray-300 py-6">
           <p className="mb-2">
             <span className="text-emphasis">First Marathon</span> 12/24
@@ -39,7 +65,7 @@ export default function Adventures() {
           </p>
         </div>
 
-        {/* Item 3 - Last item, no border */}
+        {/* Item 5 - Last item, no border */}
         <div className="py-6">
           <p className="mb-2">
             <span className="text-emphasis">First Century</span> 12/24
