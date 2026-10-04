@@ -36,6 +36,21 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* Oil Visualizer - FAVORITE */}
+        {(view === 'all' || view === 'favorites') && (
+          <div className="border-b border-gray-300 py-6">
+            <p className="mb-2">
+              <span className="text-emphasis">Oil Visualizer</span> 09/26
+            </p>
+            <p>
+              A choropleth map of retail gasoline prices for nearly every US county (~3,100 of 3,142). I wanted to visualize how fuel prices vary across the country.
+            </p>
+            <p className="mt-4">
+              <ExternalLink href="https://github.com/Dario-Soatto/oil-visualizer">Github</ExternalLink> <ExternalLink href="https://oil-visualizer.vercel.app/">Link</ExternalLink>
+            </p>
+          </div>
+        )}
+
         {/* Midterms 2026 - FAVORITE */}
         {(view === 'all' || view === 'favorites') && (
           <div className="border-b border-gray-300 py-6">
