@@ -21,7 +21,7 @@ export default function Home() {
         />
         <br />
         <p>
-          I study CS & Economics at Stanford. Broadly, I'm interested in understanding how technology impacts macroeconomics and geopolitics, building intelligent systems, and using AI to understand psychology/behavior. Since the rewards of the slot machines are still uncertain, I'm still very much in the exploration phase.
+          I study CS & Economics at Stanford and do research at <ExternalLink href="https://ai.stanford.edu/">SAIL</ExternalLink>. I'm broadly interested in building intelligent systems, using AI to study psychology/behavior, and understanding how technology impacts macroeconomics and geopolitics.
         </p>
         <br />
         <p>
@@ -38,7 +38,15 @@ export default function Home() {
           
           <br />
           <p>
-            <span className="text-emphasis">May 2025 – Present: Building AI agents @ <ExternalLink href="https://context.ai/">Context AI</ExternalLink>.</span> Operations, engineering, growth, and design. I am blessed to work with and learn from this superstar team.
+            <span className="text-emphasis">September 2026 – Present: Economic policy.</span>
+          </p>
+          <br />
+          <p>
+            <span className="text-emphasis">June 2026 – August 2026: Enterprise tech investing @ <ExternalLink href="https://www.generalatlantic.com/">General Atlantic</ExternalLink>.</span> AI infra, hardware, and defense.
+          </p>
+          <br />
+          <p>
+            <span className="text-emphasis">May 2025 – June 2026: Building AI agents @ <ExternalLink href="https://context.ai/">Context AI</ExternalLink>.</span> All things 0 → 1. Operations, engineering, growth, and design.
           </p>
           <br />
           <p>
